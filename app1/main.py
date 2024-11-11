@@ -2,9 +2,12 @@ from item import Item
 from phone import Phone
 
 
-Item.instantiate_from_csv()
+#ENCAPSULATION
 
-print(Item.all)
+item1 = Item("MyItem", 750)
+
+item1.price = 800
+print (item1.price)
 
 
 
@@ -48,5 +51,11 @@ print(Item.all)
 #INHERITANCE
 # phone1 = Phone("bkPhonev10", 500, 5, 1)
 # print(phone1)
+
+#GETTER AND SETTER
+# Item.instantiate_from_csv()
+
+# print(Item.all)
+
 
 
